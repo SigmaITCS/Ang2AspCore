@@ -3,11 +3,15 @@
 gulp.task("npmTasks", function () {
     var libs = {
         "@angular": '@angular/**/*.*',
-        "systemjs": 'systemjs/dist/*.*',
+        "systemjs": 'systemjs/**/*.*',
         "rxjs": 'rxjs/**/*.*',
-        "core-js": "core-js/client/*.js",
-        "zone.js": "zone.js/dist/*.js",
-        "reflect-metadata": "reflect-metadata/*.js"
+        "core-js": "core-js/**/*.*",
+        "zone.js": "zone.js/**/*.*",
+        "reflect-metadata": "reflect-metadata/**/*.*",
+        "bootstrap": "bootstrap/**/*.*",
+        "jquery": "jquery/**/*.*",
+        "jquery-validation": "jquery-validation/**/*.*",
+        "jquery-validation-unobtrusive": "jquery-validation-unobtrusive/**/*.*"
     };
 
     for (var name in libs) {
