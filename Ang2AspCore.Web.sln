@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{854FFC2B-B0F5-4BD8-A55F-F39A65BA5C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{584294D8-604E-47FF-92F1-5781436338D4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ang2AspCore.Web", "src\Ang2AspCore.Web\Ang2AspCore.Web.xproj", "{84074F4E-CDD6-493E-AD88-F423E91D7EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84074F4E-CDD6-493E-AD88-F423E91D7EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84074F4E-CDD6-493E-AD88-F423E91D7EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84074F4E-CDD6-493E-AD88-F423E91D7EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84074F4E-CDD6-493E-AD88-F423E91D7EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84074F4E-CDD6-493E-AD88-F423E91D7EB6} = {854FFC2B-B0F5-4BD8-A55F-F39A65BA5C6A}
+	EndGlobalSection
+EndGlobal
