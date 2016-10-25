@@ -27,7 +27,6 @@
   "devDependencies": {
     "@types/core-js": "^0.9.34",
     "@types/jasmine": "^2.5.35",
-    "@types/node": "^6.0.45",
     "gulp": "3.9.1",
     "gulp-clean": "0.3.2",
     "bower": "1.7.9"
